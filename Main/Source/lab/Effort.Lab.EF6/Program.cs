@@ -14,7 +14,7 @@ namespace Effort.Lab.EF6
         [STAThread]
         static void Main()
         {
-	        new Form_Request_TimeoutIssue();
+	        new Form_Request_SetIdentity();
         }
     }
 }

@@ -50,7 +50,7 @@ namespace Effort.Internal.DbManagement
 
     internal class DbContainer : ITableProvider
     {
-        private Database database;
+        internal Database database;
         private List<TableName> tableNames;
         private ITypeConverter converter;
         private DbContainerParameters parameters;

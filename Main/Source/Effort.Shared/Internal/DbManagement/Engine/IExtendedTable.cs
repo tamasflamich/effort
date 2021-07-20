@@ -30,6 +30,8 @@ namespace Effort.Internal.DbManagement.Engine
     {
         bool IsIdentityFieldEnabled { get; set; }
 
+        void SetIdentity(int? seed, int? increment);
+
         void Clear();
     }
 }

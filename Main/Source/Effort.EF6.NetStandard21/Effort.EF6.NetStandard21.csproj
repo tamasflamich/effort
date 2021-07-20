@@ -20,7 +20,10 @@
 
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.3.0" />
-    <PackageReference Include="NMemory" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\nmemory\Main\Source\NMemory.NetStandard20\NMemory.NetStandard20.csproj" />
   </ItemGroup>
 
   <Import Project="..\Effort.Shared\Effort.Shared.projitems" Label="Shared" />

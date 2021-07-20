@@ -140,6 +140,12 @@
     <Compile Include="Form_Request_ObjectContextFactory.Designer.cs">
       <DependentUpon>Form_Request_ObjectContextFactory.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Request_SetIdentity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Request_SetIdentity.Designer.cs">
+      <DependentUpon>Form_Request_SetIdentity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Request_SqlFunctions.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,6 +214,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="test.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\..\..\..\..\nmemory\Main\Source\NMemory.Net45\NMemory.Net45.csproj">
       <Project>{d90524e5-abe4-41e6-a7af-5148754bb5a6}</Project>
       <Name>NMemory.Net45</Name>
@@ -216,11 +227,6 @@
       <Project>{810b876c-4c73-4f0b-9fff-019fe4f30182}</Project>
       <Name>Effort.EF6.Net45</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="test.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
